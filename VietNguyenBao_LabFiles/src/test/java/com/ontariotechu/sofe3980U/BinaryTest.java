@@ -214,8 +214,8 @@ public class BinaryTest
     @Test 
     public void multiply3(){
         Binary binary1=new Binary("101");
-        Binary binary2=new Binary("0");
+        Binary binary2=new Binary("111");
         Binary binary3=Binary.multiply(binary1,binary2);
-        assertTrue(binary3.getValue().equals("0"));
+        assertTrue(binary3.getValue().equals("100011"));
     }
 }
